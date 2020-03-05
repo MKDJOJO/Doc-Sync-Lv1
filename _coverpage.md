@@ -2,19 +2,23 @@
 
 <!-- 头像 -->
 
-![logo](http://img.hhlmy.xyz/IMG/Head_sculpture/team-1.jpg)
+![logo](http://img.hhlmy.xyz/Work/Web%20Head/img-160X160.png)
 
 <!-- 标题 -->
 
-# 我的文档网站
+# 一鸣教你从零开始学习 AE
 
-## 个人文档网站
+## Adobe AE 入门学习指南
 
-> 一个神奇的文档网站生成巩固
+> 你可以获得
 
-- Simple and lightweight (~12kb gzipped)
-- Multiple themes
-- Not build static html files
+- 快速 Adobe AE 基础知识入门
+- 了解并掌握 Adobe AE 常用功能
+- 了解 Adobe AE 常用插件、表达式
+
+[快速开始](https://mkdjojo.github.io/Doc-Ae-Lv1/#/)
+[关于 AE](About_AE)
+[资料下载](download)
 
 <!-- 图标和链接 -->
 
@@ -23,9 +27,7 @@
 [Get Started](#quick-start)
 
 <!-- 背景色（二选一） -->
-
-![color](#2f4253)
-
+<!--![color](#2f4253) -->
 <!-- 背景图（二选一） -->
 
 ![](http://img.hhlmy.xyz/Work/Other/IMG-HQ-022.jpg)
