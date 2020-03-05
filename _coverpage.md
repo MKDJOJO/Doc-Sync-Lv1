@@ -6,25 +6,21 @@
 
 <!-- 标题 -->
 
-# 一鸣教你从零开始学习 AE
+# 一鸣教你从零开始搭建 docsify
 
-## Adobe AE 入门学习指南
+## docsify 部署指南
 
-> 你可以获得
+> 快速搭建 DOC 管理系统指南
 
-- 快速 Adobe AE 基础知识入门
-- 了解并掌握 Adobe AE 常用功能
-- 了解 Adobe AE 常用插件、表达式
-
-[快速开始](https://mkdjojo.github.io/Doc-Ae-Lv1/#/)
-[关于 AE](About_AE)
-[资料下载](download)
+- 快速 DOCs 基础知识入门
+- 了解并掌握 DOCs 常用功能
+- 自动化部署 Docs 模块
 
 <!-- 图标和链接 -->
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#quick-start)
-[Get Started](#quick-start)
+[快速开始](https://mkdjojo.github.io)
+[关于 AE](About_AE)
+[资料下载](download)
 
 <!-- 背景色（二选一） -->
 <!--![color](#2f4253) -->
