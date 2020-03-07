@@ -2,7 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>单页参考案例-2</title>
+    <title>单页模板</title>
+    <!--网页标题左侧显示-->
+    <link rel="icon" href="icon.svg" type="image/x-icon" />
+    <!--收藏夹显示图标-->
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8" />
@@ -11,14 +15,16 @@
 
   <body>
     <nav>
-      <a href="#">单页参考案例-2</a>
+      <a href="#">单页模板</a>
     </nav>
     <div id="app">缓冲中...</div>
 
     <script>
       window.$docsify = {
         //目录名称
-        name: '单页参考案例-2',
+        name: '单页模板',
+        // 改变首页到 /Home.md
+        homepage: '/Home.md',
         //切换页面后是否自动跳转到页面顶部
         auto2top: true,
         //启用封面页。开启后是加载 _coverpage.md 文件，也可以自定义文件名。
@@ -31,7 +37,20 @@
         mergeNavbar: true,
         //自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
         subMaxLevel: 2,
-        maxLevel: 2
+        maxLevel: 2,
+        //全文搜索插件会根据当前页面上的超链接获取文档内容，
+        search: 'auto',
+        search: {
+          noData: {
+            '/': '没有结果!'
+          },
+          paths: 'auto',
+          placeholder: {
+            '/': '搜索'
+          }
+        },
+        //我们可以通过 {docsify-updated} 变量显示文档更新日期.
+        formatUpdated: '{MM}/{DD} {HH}:{mm}'
       }
     </script>
 
